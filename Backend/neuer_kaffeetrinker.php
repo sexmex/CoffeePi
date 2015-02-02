@@ -18,7 +18,7 @@
 		<input type="Submit" value="Kaffeetrinker anlegen" name="abgeschickt">
 		</form>
 		
-<?php		
+	
 		
 	}	
 	
