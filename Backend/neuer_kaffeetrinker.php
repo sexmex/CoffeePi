@@ -2,16 +2,7 @@
 
 	/*Es wird überprüft, ob bereits Daten im Frontend abgeschickt wurden. 
 	Ist dies nicht der Fall, wird das Formular angezeigt.*/
-	if(!isset($_POST["abgeschickt"]))
-	{
-		
-?>
-		<form action="neuer_kaffeetrinker.php" method="post">
-		Vorname<br>
-		<input type="Text" name="vorname" size="20"><br>
-		Nachname<br>
-		<input type="Text" name="nachname" size="20"><br>
-		Personalnummer<br>
+	if(!isset($_mer<br>
 		<input type="Text" name="personalnummer" size="20"><br>
 		Kaffees (Initialwert)<br>
 		<input type="Text" name="kaffees" size="20" value="0"><br>
